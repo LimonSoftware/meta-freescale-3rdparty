@@ -5,7 +5,6 @@ SRC_URI = " \
    file://LICENCE.broadcom_bcm43xx \
 "
 
-S = "${WORKDIR}"
 BRCM_FWDIR = "${nonarch_base_libdir}/firmware/brcm"
 CHIP_MODEL ?= "Invalid"
 
